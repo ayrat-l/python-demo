@@ -15,4 +15,7 @@ def bmi(mass, growth):
     result = mass / (growth**2)
     return result
 
+def distance_calculation(volume_fuel,expense_fuel):
+    result = volume_fuel * 100 / expense_fuel
+    return result
 
